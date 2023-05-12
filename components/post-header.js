@@ -23,7 +23,11 @@ export default function PostHeader({ title, coverImage, date, author }) {
         <div className="mb-6 text-lg">
           <Date dateString={date} />
         </div>
-      </div>
+        <div className="mb-6 text-lg">
+          <Date dateString={chamada} />
+        </div>
+
+</div>
     </>
   );
 }
